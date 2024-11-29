@@ -51,7 +51,7 @@ Track the development journey:
 - [Technical Reports](docs/progress/technical_reports.md)
 
 ## Core Package
-The `dlcore` package contains the evolving trading system components:
+The `qlens` package contains the evolving trading system components:
 - Models and algorithms
 - Data processing pipelines
 - Evaluation frameworks
