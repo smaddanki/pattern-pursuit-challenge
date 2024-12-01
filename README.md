@@ -1,5 +1,7 @@
 # Pattern Pursuit Challenge: 30-Day Deep Learning Journey in Quantitative Trading
 
+> **_Note:_** This is a personal learning project documenting my journey in applying deep learning to quantitative trading. The code and implementations are for educational purposes and should not be considered as financial advice.*
+
 ## Overview
 A systematic exploration of deep learning applications in quantitative trading, focusing on predicting 5-day forward returns for S&P 500 stocks. This personal challenge documents the development of a production-ready trading signal system, progressing from basic ML models to a comprehensive trading infrastructure.
 

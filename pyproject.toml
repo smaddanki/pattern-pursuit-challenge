@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "base-template"
+name = "pattern-pursuit"
 version = "0.1.0"
-description = "Base template for "
+description = " "
 authors = ["smaddanki"]
 readme = "README.md"
 keywords = ["packaging", "poetry"]
