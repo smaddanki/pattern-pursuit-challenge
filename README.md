@@ -17,29 +17,28 @@ A systematic exploration of deep learning applications in quantitative trading, 
 1. Review the [Prerequisites](docs/setup/prerequisites.md)
 2. Follow the [Installation Guide](docs/setup/installation.md)
 3. Explore the [Project Structure](docs/overview/structure.md)
-4. Check [Development Guidelines](docs/development/guidelines.md)
+4. Check [Development Guidelines](docs/setup/code_quality.md)
 
 ## Daily Progress
 Track the development journey:
 - Each day's implementation is self-contained in `challenges/day_XX/`
-- Qlens package development progresses in `core/`
 - Comprehensive documentation available in `docs/`
 - Shared resources and data in `data/`
 
 | <div style="width:100px">Day</div>| <div style="width:250px">Challenge</div> | Code      | Reports   | status  |
 | :---     | :---       | :---          | :---                | :---                | 
-| 1. **Foundation Building** (Days 0-5)
-| [Day 0](pattern_pursuit/challenges/day_00/)|[ML Baseline](pattern_pursuit/challenges/day_00/challenge.md)|[notebook](pattern_pursuit/challenges/day_00/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_00/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_00/technical_report.md)|Not Yet Started|
-| [Day 1](pattern_pursuit/challenges/day_01/)|[Neural Network Foundation](pattern_pursuit/challenges/day_01/challenge.md)|[notebook](pattern_pursuit/challenges/day_01/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_01/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_01/technical_report.md)|Not Yet Started|
-| [Day 2](pattern_pursuit/challenges/day_02/)|[Sequence Learning](pattern_pursuit/challenges/day_02/challenge.md)|[notebook](pattern_pursuit/challenges/day_02/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_02/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_02/technical_report.md)|Not Yet Started|
-| [Day 3](pattern_pursuit/challenges/day_03/)|[Technical Analysis Integration](pattern_pursuit/challenges/day_03/challenge.md)|[notebook](pattern_pursuit/challenges/day_03/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_03/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_03/technical_report.md)|Not Yet Started|
-| [Day 4](pattern_pursuit/challenges/day_04/)|[Volume-Price Dynamics](pattern_pursuit/challenges/day_04/challenge.md)|[notebook](pattern_pursuit/challenges/day_04/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_04/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_04/technical_report.md)|Not Yet Started|
-| [Day 5](pattern_pursuit/challenges/day_05/)|[Multi-timeframe Analysis](pattern_pursuit/challenges/day_05/challenge.md)|[notebook](pattern_pursuit/challenges/day_05/notebook.ipynb)| 1. [Summary Report](pattern_pursuit/challenges/day_05/summary_report.md) <br> 2. [Technical Report](pattern_pursuit/challenges/day_05/technical_report.md)|Not Yet Started|
-| 2. **Pattern Enhancement** (Days 6-10)
-| 3. **Market Regime & Adaptation** (Days 11-15)
-| 4. **Risk & Portfolio Management** (Days 16-20)
-| 5. **Strategy Development** (Days 21-26)
-| 6. **Production Development** (Days 27-30)
+| **Foundation Building**
+| [Day 0](pattern_pursuit/challenges/day_00/)|[ML Baseline](pattern_pursuit/challenges/day_00/challenge.md)|[notebook](pattern_pursuit/challenges/day_00/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_00/summary_report.md) <br>[Technical Report](pattern_pursuit/challenges/day_00/technical_report.md)|Not Yet Started|
+| [Day 1](pattern_pursuit/challenges/day_01/)|[Neural Network Foundation](pattern_pursuit/challenges/day_01/challenge.md)|[notebook](pattern_pursuit/challenges/day_01/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_01/summary_report.md) <br>[Technical Report](pattern_pursuit/challenges/day_01/technical_report.md)|Not Yet Started|
+| [Day 2](pattern_pursuit/challenges/day_02/)|[Sequence Learning](pattern_pursuit/challenges/day_02/challenge.md)|[notebook](pattern_pursuit/challenges/day_02/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_02/summary_report.md) <br> [Technical Report](pattern_pursuit/challenges/day_02/technical_report.md)|Not Yet Started|
+| [Day 3](pattern_pursuit/challenges/day_03/)|[Technical Analysis Integration](pattern_pursuit/challenges/day_03/challenge.md)|[notebook](pattern_pursuit/challenges/day_03/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_03/summary_report.md) <br>[Technical Report](pattern_pursuit/challenges/day_03/technical_report.md)|Not Yet Started|
+| [Day 4](pattern_pursuit/challenges/day_04/)|[Volume-Price Dynamics](pattern_pursuit/challenges/day_04/challenge.md)|[notebook](pattern_pursuit/challenges/day_04/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_04/summary_report.md) <br>[Technical Report](pattern_pursuit/challenges/day_04/technical_report.md)|Not Yet Started|
+| [Day 5](pattern_pursuit/challenges/day_05/)|[Multi-timeframe Analysis](pattern_pursuit/challenges/day_05/challenge.md)|[notebook](pattern_pursuit/challenges/day_05/main.ipynb)|[Summary Report](pattern_pursuit/challenges/day_05/summary_report.md) <br>[Technical Report](pattern_pursuit/challenges/day_05/technical_report.md)|Not Yet Started|
+|**Pattern Enhancement**
+|**Market Regime & Adaptation**
+|**Risk & Portfolio Management**
+|**Strategy Development**
+|**Production Development**
 
 
 ## QLens Package
@@ -49,7 +48,7 @@ The `qlens` package contains the evolving trading system components:
 - Evaluation frameworks
 - Utility functions
 
-[Package Documentation](core/README.md)
+<!-- [Package Documentation](core/README.md) -->
 
 ## Technology Stack
 - Python 3.9+
